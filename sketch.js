@@ -14,11 +14,11 @@ function preload() {
   // 載入所有耳環圖片
   // 請確保你的專案目錄下有 pic 檔案夾，且裡面的檔名與下方字串完全一致
   // 如果檔名是 acc2_acc2_pearl.png，請修正下方字串或修改檔案名稱
-  earringImgs[1] = loadImage('pic/acc1_ring.png');
-  earringImgs[2] = loadImage('pic/acc2_pearl.png');
-  earringImgs[3] = loadImage('pic/acc3_tassel.png');
-  earringImgs[4] = loadImage('pic/acc4_jade.png');
-  earringImgs[5] = loadImage('pic/acc5_phoenix.png');
+  earringImgs[1] = loadImage('pic/1.png');
+  earringImgs[2] = loadImage('pic/2.png');
+  earringImgs[3] = loadImage('pic/3.png');
+  earringImgs[4] = loadImage('pic/4.png');
+  earringImgs[5] = loadImage('pic/5.png');
 }
 
 function setup() {
