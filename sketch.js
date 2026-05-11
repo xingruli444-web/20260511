@@ -12,6 +12,8 @@ function preload() {
   handPose = ml5.handPose();
   
   // 載入所有耳環圖片
+  // 請確保你的專案目錄下有 pic 檔案夾，且裡面的檔名與下方字串完全一致
+  // 如果檔名是 acc2_acc2_pearl.png，請修正下方字串或修改檔案名稱
   earringImgs[1] = loadImage('pic/acc1_ring.png');
   earringImgs[2] = loadImage('pic/acc2_pearl.png');
   earringImgs[3] = loadImage('pic/acc3_tassel.png');
