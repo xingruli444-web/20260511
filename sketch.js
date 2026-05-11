@@ -13,7 +13,7 @@ function preload() {
   
   // 載入所有耳環圖片
   earringImgs[1] = loadImage('pic/acc1_ring.png');
-  earringImgs[2] = loadImage('pic/acc2_acc2_pearl.png');
+  earringImgs[2] = loadImage('pic/acc2_pearl.png');
   earringImgs[3] = loadImage('pic/acc3_tassel.png');
   earringImgs[4] = loadImage('pic/acc4_jade.png');
   earringImgs[5] = loadImage('pic/acc5_phoenix.png');
