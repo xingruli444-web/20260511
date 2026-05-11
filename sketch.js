@@ -53,6 +53,8 @@ function draw() {
     let leftEarlobe = face.keypoints[132];
     let rightEarlobe = face.keypoints[361];
 
+    console.log('檢測到臉部，左耳垂:', leftEarlobe, '右耳垂:', rightEarlobe);
+
     fill(255, 255, 0); // 黃色
     noStroke();
 
@@ -65,6 +67,17 @@ function draw() {
     let rx = map(rightEarlobe.x, 0, capture.width, -vWidth / 2, vWidth / 2);
     let ry = map(rightEarlobe.y, 0, capture.height, -vHeight / 2, vHeight / 2);
     circle(rx, ry, 15); // 右耳垂圓圈
+
+    // 顯示狀態
+    fill(0);
+    textSize(16);
+    text('檢測到臉部', -width/2 + 10, -height/2 + 30);
+  } else {
+    console.log('沒有檢測到臉部');
+    // 顯示狀態
+    fill(0);
+    textSize(16);
+    text('沒有檢測到臉部，請面對攝影機', -width/2 + 10, -height/2 + 30);
   }
 
   pop();
